@@ -9,7 +9,7 @@ export default function About() {
           <div className="md:w-1/2">
             <div className="relative h-[600px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://www.thespoiledbeauties.com/cdn/shop/articles/Brown_Aesthetic_Simple_Vlog_YouTube_Thumbnail-9_1200x1200.png?v=1674246223"
+                src="/images/about_salon.jpeg"
                 alt="Spoiled Beauties Salon Interior"
                 fill
                 className="object-cover image-hover"

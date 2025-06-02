@@ -21,7 +21,7 @@ export default function Hero() {
           <div className="md:w-1/2 mt-12 md:mt-0">
             <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://static.wixstatic.com/media/915994_4c42dff25da04e60ad915cefca45c43b~mv2.png/v1/fit/w_2500,h_1330,al_c/915994_4c42dff25da04e60ad915cefca45c43b~mv2.png"
+                src="/images/hero-salon.avif"
                 alt="Spoiled Beauties Salon"
                 fill
                 className="object-cover image-hover"

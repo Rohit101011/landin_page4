@@ -7,12 +7,13 @@ export default function About() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-16">
           <div className="md:w-1/2">
-            <div className="relative h-[600px] w-full rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative h-[400px] md:h-[600px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/about_salon.jpeg"
+                src="https://www.thespoiledbeauties.com/cdn/shop/articles/Brown_Aesthetic_Simple_Vlog_YouTube_Thumbnail-9_1200x1200.png?v=1674246223"
                 alt="Spoiled Beauties Salon Interior"
                 fill
-                className="object-cover image-hover"
+                className="object-cover object-center image-hover"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
             </div>

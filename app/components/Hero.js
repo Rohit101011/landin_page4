@@ -19,13 +19,14 @@ export default function Hero() {
             </button>
           </div>
           <div className="md:w-1/2 mt-12 md:mt-0">
-            <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative h-[300px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/hero-salon.avif"
                 alt="Spoiled Beauties Salon"
                 fill
-                className="object-cover image-hover"
+                className="object-cover object-center image-hover"
                 priority
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
             </div>
